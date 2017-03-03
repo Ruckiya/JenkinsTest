@@ -207,7 +207,7 @@
 				TargetAttributes = {
 					2E4C2B8C1E669CDD00B67833 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 24KD3VN7KC;
+						DevelopmentTeam = EK6DL2NL97;
 						ProvisioningStyle = Manual;
 					};
 					2E4C2BA51E669CDD00B67833 = {
@@ -426,13 +426,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 24KD3VN7KC;
+				DEVELOPMENT_TEAM = EK6DL2NL97;
 				INFOPLIST_FILE = JenkinsTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.motivitylabs.southwest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keeptraxinc.southwest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "4fc252d4-37cc-46c1-ba95-223a217d9c65";
-				PROVISIONING_PROFILE_SPECIFIER = Southwest_Development;
+				PROVISIONING_PROFILE = "0cf5900b-f6a0-44e2-9eba-072d25c93f50";
+				PROVISIONING_PROFILE_SPECIFIER = "MOST PushNotification Provisional Profile";
 			};
 			name = Debug;
 		};
@@ -440,13 +440,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 24KD3VN7KC;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = EK6DL2NL97;
 				INFOPLIST_FILE = JenkinsTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.motivitylabs.southwest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keeptraxinc.southwest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "4fc252d4-37cc-46c1-ba95-223a217d9c65";
-				PROVISIONING_PROFILE_SPECIFIER = Southwest_Development;
+				PROVISIONING_PROFILE = "bc735833-b223-437a-8bea-f2cfb2609a9b";
+				PROVISIONING_PROFILE_SPECIFIER = "MOST APNs Distribution Provisioning Profile";
 			};
 			name = Release;
 		};
